@@ -19,7 +19,7 @@ read -p "choose ngrok region: " CRP
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull danchitnis/xrdp:amazon-mate ubuntu ubuntu yes
+docker pull danchitnis/xrdp:amazon-mate
 clear
 echo "===================================="
 echo "Start RDP"
