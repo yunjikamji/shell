@@ -19,7 +19,7 @@ read -p "choose ngrok region: " CRP
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull hasi105/debian-mate-xrdp-ssh
+docker pull hectorm/xubuntu
 clear
 echo "===================================="
 echo "Start RDP"
@@ -36,4 +36,4 @@ echo "Keep support akuh.net thank you"
 echo "Wait 1 minute to finish bot"
 echo "===================================="
 echo "===================================="
-docker run --rm -p 3388:3389 hasi105/debian-mate-xrdp-ssh > /dev/null 2>&1
+docker run --rm -p 3388:3389 hectorm/xubuntu ubuntu ubuntu > /dev/null 2>&1
