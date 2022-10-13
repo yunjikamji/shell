@@ -19,7 +19,7 @@ read -p "choose ngrok region: " CRP
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-docker pull valyc/docker-ubuntu-xrdp-mate-custom
+docker pull danchitnis/xrdp:ubuntu-xfce
 clear
 echo "===================================="
 echo "Start RDP"
@@ -32,8 +32,8 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo "===================================="
 echo "===================================="
 echo "Don't close this tab to keep RDP running"
-echo "Keep support akuh.net thank you"
+echo "Visit zuuniverse.space for new updates"
 echo "Wait 1 minute to finish bot"
 echo "===================================="
 echo "===================================="
-docker run --rm -p 3388:3389 valyc/docker-ubuntu-xrdp-mate-custom > /dev/null 2>&1
+docker run --rm -p 3388:3389 danchitnis/xrdp:ubuntu-xfce ubuntu ubuntu yes > /dev/null 2>&1
